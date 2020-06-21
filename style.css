@@ -1,0 +1,42 @@
+.site-body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-attachment: fixed;
+    border: #fe346e;
+    border-width: 1ch;
+    border-style: groove;
+}
+
+.heading{
+    font-size: 75px;
+    font-family: fantasy;
+    text-align: center;
+    color: #fe346e;
+}
+
+.para{
+    font-size: medium;
+    text-align: center;
+    font-family: monospace;
+    color: aqua;
+    border-style: groove;
+    background-color: black;
+
+}
+h2{
+    font-family: fantasy;
+    color:#00faac;
+}
+.row {
+    display: flex;
+    border-style: groove;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 10px;
+  }
